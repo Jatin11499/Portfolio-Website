@@ -1,0 +1,58 @@
+<div class="modal fade" id="myModal">
+	  <div class="modal-dialog">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<h4 class="modal-title"><b>Contact Me:</b></h4>
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+		  </div>
+		  <div class="modal-body">
+			<form>
+				<div class="form-group">
+					<label>Name</label>
+				<input class="form-control" type="text" name="name"/>
+				</div>
+					<div class="form-group">
+						<label>Email Id</label>
+						<input class="form-control" type="email" name="emailid"/>
+					</div>
+					<div class="form-group">
+						<label>Comments</label>
+						<textarea rows=4 class="form-control" type="text" name="comment"></textarea>
+					</div>
+					<div class="form-group">
+						<input type="submit" class="btn btn-success center-block" value="Submit"/>
+					</div>
+			</form>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+	<footer>
+		<div class="text-center" id="foot">
+			<p style="font-size:30px;">Intrested in hiring me for your project?</p><p>Looking for an experienced Web Developer?<br>To start an initial chat, just drop me an email at <a style="color:black;text-shadow:none;"><b>jatinteckchandani11@gmail.com</b></a> or use the form below.</p>
+			<button class="btn btn-dark" data-toggle="modal" data-target="#myModal" id="talk" style="border:1px solid rgb(247, 247, 247);">Let's Talk</button>
+			<p>My contact no.: +91 9414635573</p>
+			My Social Media Accounts:
+			<a class="fa fa-twitter social" aria-hidden="true" style="padding:10px;color:white;" href="https://twitter.com/JatinTeckchand1" target="_blank"></a>
+			<a class="fa fa-linkedin social" aria-hidden="true" style="padding:10px;color:white;" href="https://www.linkedin.com/in/jatin-teckchandani-072523172/" target="_blank"></a>
+			<a class="fa fa-facebook-official social" aria-hidden="true" style="padding:10px;color:white;" href="https://www.facebook.com/jatin.teckchandani" target="_blank"></a>
+			<a class="fa fa-instagram social" aria-hidden="true" style="padding:10px;color:white;" href="https://www.instagram.com/jatin_teckchandani/?hl=en" target="_blank"></a>
+			<a class="fa fa-github social" aria-hidden="true" style="padding:10px;color:white;" href="https://github.com/Jatin11499?tab=repositories" target="_blank"></a>
+		</div>
+	</footer>
+	</body>
+	<script type="text/javascript">
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                var posTop = $(document).scrollTop();
+                if(posTop>=300 && posTop<=600)
+                {
+                    $("#skillone").addClass("animate__animated animate__zoomIn");
+                    $("#skilltwo").addClass("animate__animated animate__zoomIn");
+                    $("#skillthree").addClass("animate__animated animate__zoomIn");
+                }
+            });
+        });
+    </script>
+</html>
